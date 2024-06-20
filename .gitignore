@@ -5,4 +5,5 @@
 .DS_Store
 /.quarto/
 README.html
+template_files
 template.html
