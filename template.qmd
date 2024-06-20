@@ -1,0 +1,101 @@
+---
+title: "AWS Cloud Improvements"
+subtitle: Securing and unleashing the power of the cloud!
+#author: Pim Snel
+date: 20 juni 2024
+format: technative-theme-revealjs
+incremental: false
+embed-resources: true
+date-format: "MMMM YYYY"
+---
+
+## Nice to meet you! {dark-background="false" background-image="img/2.png"}
+
+**Born in the Cloud:** TechNative helps clients getting more out of their digital journeys.
+From software development & testing to cloud management.
+<br/>
+<br/>
+
+**Based in Amersfoort, The Netherlands:** with currently a team of ±35 DevOps
+professionals and software Architects we help clients throughout Europe with complex
+platforms or scalability issues.
+<br/>
+<br/>
+
+**We love Open Source:** 90% of the projects we do are based on Open Source software,
+predominantly on Linux and in mostly in public or private Cloud.
+<br/>
+<br/>
+
+**Official business partner:** All our engineers are AWS certified and we are an official
+recognized AWS Business Partner. Next to that TechNative is the largest FinOps
+Certified Business partner in the BeNeLux.
+
+
+## A small company with large clients { background-image="img/3.png"  }
+<br/>
+
+##### We successfully help a number of clients throughout Europe: {.white-text}
+
+::: {.highlight-text}
+**AutoMobile.it** – the largest online vehicle marketplace in Italy.
+
+**Dreamlines.com** – Europe’s largest e-commerce channel for online booking of cruise holidays.
+
+**LePaya.com** – one of the top 50 fastest growing startups in The Netherlands.
+
+**Ahold DelHaize** – one of the larger supermarket retailers in The Netherlands.
+
+**Volksbank** – a relatively small Dutch bank with over 3M clients.
+
+**Recharge.com** – the leading online branded payments marketplace in 30+ countries.
+:::
+
+## How do we differentiate from others?  {.center background-image="img/4.png" .white-text}
+
+::: {.highlight-text}
+TechNative is grown on good old Dutch pragmatism. We are only successful if you are successful. Because of
+this we look at technology as a vehicle, not a destination.
+:::
+
+# Quick Wins { data-background-color="#112f41" }
+
+# Enhanced Security { data-background-color="#112f41" }
+
+- Hardening current infra with wide pallet of security tools
+- Buy time to migrate to a secure by design architecture.
+
+# Observability { data-background-color="#112f41" }
+
+By implementing TechNative's robust extendable observability module, MMM gets:
+
+- Rapid identification of performance issues
+- Proactive capacity planning and resource optimization
+- Improved troubleshooting and debugging capabilities
+- Enhanced security monitoring and incident response
+
+# Infrastructure as Code (IaC) { data-background-color="#112f41" }
+
+Introducing IaC has many advantages:
+
+:::: {.columns}
+
+
+::: {.column width="60%"}
+- Greater efficiency and cost savings
+- Faster provisioning of resources
+- Version control
+- Roll-back scenario's
+:::
+
+::: {.column width="40%"}
+- Secure by design
+- Increased consistency
+- Increased reliability
+- Improved scalability
+- Reproducibility
+:::
+
+::::
+
+

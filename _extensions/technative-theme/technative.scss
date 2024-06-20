@@ -1,0 +1,168 @@
+/*-- scss:defaults --*/
+// importing fonts
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic&display=swap');
+
+// fonts
+$font-family-sans-serif: 'Lato', Tahoma, sans-serif !default;
+
+// headings
+$presentation-heading-font: 'Calibri',  Tahoma, sans-serif  !default;
+$presentation-heading-color: #f2b134 !default;
+
+$technative-yellow-color: #f2b134;
+$technative-white-color: #fff;
+$technative-semitrans-color: #4a616e;
+
+$h1-font-size: 1.6em !default;
+$h2-font-size: 1.3em !default;
+$h3-font-size: 1.15em !default;
+
+//code
+$code-color: #88398A !default;
+$font-family-monospace: 'Inconsolata', monospace  !default;
+
+// general
+$body-bg: #fff;
+$body-color: #000000;
+$link-color: $technative-yellow-color;
+$presentation-font-size-root: 35px;
+
+.quarto-title-block{
+
+  border-left: solid 5px white;
+}
+
+/*-- scss:rules --*/
+.reveal pre code {
+  background-color: #f8f8f8;
+  font-size: 1em;
+  padding: 0.5em;
+  line-height: 1.2em;
+}
+
+h1.title {
+	font-size: 77px;
+	font-weight: 600 !important;
+	text-align: left;
+	margin-left: 25px;
+}
+p.subtitle {
+	text-shadow: none;
+	font-weight: 600 !important;
+	font-size: 52px !important;
+	text-align: left;
+	margin-left: 25px;
+}
+.quarto-title-authors {
+	text-shadow: none;
+	font-weight: 400;
+	font-size: 24px;
+	text-align: left !important;
+	margin-left: 15px;
+  display: block !important;
+}.date {
+	text-shadow: none;
+	font-weight: 800;
+	font-size: 24px !important;
+	text-align: left !important;
+	margin-left: 25px !important;
+  display: block !important;
+}
+
+.title {
+  color: $technative-yellow-color !important;
+  font-size: $h1-font-size;
+  font-family: $presentation-heading-font;
+}
+.subtitle {
+  color: $technative-white-color;
+  font-size: $h2-font-size;
+  font-family: $presentation-heading-font;
+}
+
+.xxxauthor {
+  color: $body-bg;
+  font-size: $h2-font-size;
+  font-family: $presentation-heading-font;
+}
+p {
+  font-size: 28px;
+}
+
+.highlight-text {
+
+  //background-color: $technative-yellow-color;
+  background-color: #f2b134aa;
+  padding:10px;
+  color: $technative-white-color !important;
+  //text-shadow: 1px 1px 1px white;
+}
+
+.white-text 
+{
+  h1,h2,h3,h4,h5,h6,p{
+    color: white !important;
+  }
+}
+
+.footer p {
+  font-size: 14px;
+  font-family: $presentation-heading-font;
+}
+
+.no-logo .slide-logo{
+  display: none;
+
+}
+
+.slide-number, .reveal.has-logo .slide-number,
+.reveal .slide-number {
+  font-family: $presentation-heading-font;
+  color: $technative-white-color !important;
+  background-color: $technative-semitrans-color;
+}
+
+.has-dark-background {
+  h1,h2,h3,h4,h5,h6 {
+    color: $technative-yellow-color !important;
+  }
+}
+
+.reveal .panel-tabset [role=tab] {
+    font-size: 0.8em;
+}
+
+.reveal .footer {
+    color: $technative-white-color;
+}
+
+
+.center-x{
+    text-align: center;
+}
+
+section.has-dark-background a, section.has-dark-background a:hover {
+    color: #fee4ff;
+}
+
+.xxslide-logo {
+  display:none !important;
+}
+.xshow-logo {
+  display: block !important;
+  position: fixed !important;
+  top: 10px !important;
+  right: 10px !important;
+  max-height: 7% !important;
+  height: 100% !important;
+  width: auto !important;
+  color: $body-color !important;
+}
+
+.slide-number, .reveal.has-logo .slide-number {
+  bottom: 10px !important;
+  right: 10px !important;
+  top: unset !important;
+  color: $body-color !important;
+}
