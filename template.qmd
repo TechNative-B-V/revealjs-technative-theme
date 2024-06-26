@@ -1,101 +1,66 @@
 ---
-title: "AWS Cloud Improvements"
-subtitle: Securing and unleashing the power of the cloud!
-#author: Pim Snel
-date: 20 juni 2024
+title: "Equinet End 2 End monitoring"
+subtitle: Securing the full stack with the power of the cloud!
+client:
+  name: Mustad BV
+  short_name: Mustad
+  contact_person: Masoud Banbersta
 format: technative-theme-revealjs
 incremental: false
 embed-resources: true
 date-format: "MMMM YYYY"
 ---
 
-## Nice to meet you! {dark-background="false" background-image="img/2.png"}
+# About this E2E Monitoring { data-background-color="#112f41" }
 
-**Born in the Cloud:** TechNative helps clients getting more out of their digital journeys.
-From software development & testing to cloud management.
-<br/>
-<br/>
+This proposal is made for improving the quality of the entire Equinet Application.
 
-**Based in Amersfoort, The Netherlands:** with currently a team of ±35 DevOps
-professionals and software Architects we help clients throughout Europe with complex
-platforms or scalability issues.
-<br/>
-<br/>
+*from mobile device to database and everyting in between*
 
-**We love Open Source:** 90% of the projects we do are based on Open Source software,
-predominantly on Linux and in mostly in public or private Cloud.
-<br/>
-<br/>
+## Problem { data-background-color="#112f41" .center}
 
-**Official business partner:** All our engineers are AWS certified and we are an official
-recognized AWS Business Partner. Next to that TechNative is the largest FinOps
-Certified Business partner in the BeNeLux.
+- Equinet Application has many software and network components
+- Ownership of components is divided among multiple parties.
+- Multiple Places where things can go wrong
+- Problems can be app-crashes, performance issues, data loss.
+- Many Client Devices
+- Hard two debug, find causes for problem
+- It's hard to see who is responsible for problems
 
+## Brief solution outline { data-background-color="#112f41"  .center}
 
-## A small company with large clients { background-image="img/3.png"  }
-<br/>
+Our proposal can be roughly outlined with the following components:
 
-##### We successfully help a number of clients throughout Europe: {.white-text}
+- Make sure all major application components send relevant logs and metrics
+- Store all data in a central indexed store
+- Make all data available for Engineers for correlation when solving problems
+- Create alerts for all known anomalies in collected data
+- Centralize orchastration of e2e monitoring
 
-::: {.highlight-text}
-**AutoMobile.it** – the largest online vehicle marketplace in Italy.
+# E2E monitoring with and ELK Stack { data-background-color="#112f41"  .center}
 
-**Dreamlines.com** – Europe’s largest e-commerce channel for online booking of cruise holidays.
+## What is ELK
 
-**LePaya.com** – one of the top 50 fastest growing startups in The Netherlands.
+![](img/elk5.png)
 
-**Ahold DelHaize** – one of the larger supermarket retailers in The Netherlands.
+## ELK for Equinet
 
-**Volksbank** – a relatively small Dutch bank with over 3M clients.
+![](img/elk3.png)
 
-**Recharge.com** – the leading online branded payments marketplace in 30+ countries.
-:::
+## Overall picture
 
-## How do we differentiate from others?  {.center background-image="img/4.png" .white-text}
+![](img/elk2.jpg)
 
-::: {.highlight-text}
-TechNative is grown on good old Dutch pragmatism. We are only successful if you are successful. Because of
-this we look at technology as a vehicle, not a destination.
-:::
+# Tasks { data-background-color="#112f41" }
 
-# Quick Wins { data-background-color="#112f41" }
+- implement generation of missing logs and metrics in various application components
+- implement ELK Stack
+- configure new alarms
+- configure monitoring delegations
+- write documentation and playbooks, make video content
+- train developers and operators
 
-# Enhanced Security { data-background-color="#112f41" }
+# { data-background-color="#112f41" }
 
-- Hardening current infra with wide pallet of security tools
-- Buy time to migrate to a secure by design architecture.
-
-# Observability { data-background-color="#112f41" }
-
-By implementing TechNative's robust extendable observability module, MMM gets:
-
-- Rapid identification of performance issues
-- Proactive capacity planning and resource optimization
-- Improved troubleshooting and debugging capabilities
-- Enhanced security monitoring and incident response
-
-# Infrastructure as Code (IaC) { data-background-color="#112f41" }
-
-Introducing IaC has many advantages:
-
-:::: {.columns}
-
-
-::: {.column width="60%"}
-- Greater efficiency and cost savings
-- Faster provisioning of resources
-- Version control
-- Roll-back scenario's
-:::
-
-::: {.column width="40%"}
-- Secure by design
-- Increased consistency
-- Increased reliability
-- Improved scalability
-- Reproducibility
-:::
-
-::::
-
+![](img/13.png)
 

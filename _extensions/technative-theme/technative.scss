@@ -1,6 +1,8 @@
 /*-- scss:defaults --*/
 // importing fonts
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+// FIXME this line gives a pandoc warning
 @import url('https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic&display=swap');
 
 // fonts
@@ -99,7 +101,7 @@ p {
   //text-shadow: 1px 1px 1px white;
 }
 
-.white-text 
+.white-text
 {
   h1,h2,h3,h4,h5,h6,p{
     color: white !important;
@@ -142,7 +144,8 @@ p {
     text-align: center;
 }
 
-section.has-dark-background a, section.has-dark-background a:hover {
+section.has-dark-background a,
+section.has-dark-background a:hover {
     color: #fee4ff;
 }
 
