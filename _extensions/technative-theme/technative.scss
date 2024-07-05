@@ -29,6 +29,10 @@ $technative-yellow-color: #f2b134;
 $technative-white-color: #fff;
 $technative-semitrans-color: #4a616e;
 
+$technative-party-red-color: #ed553b;
+$technative-party-green-color: #4fb99f;
+$technative-party-blue-color: #0b9cf3;
+
 $h1-font-size: 1.6em !default;
 $h2-font-size: 1.3em !default;
 $h3-font-size: 1.15em !default;
@@ -41,6 +45,7 @@ $font-family-monospace: 'Inconsolata', monospace  !default;
 $body-bg: #fff;
 $body-color: #000000;
 $link-color: $technative-yellow-color;
+
 $presentation-font-size-root: 35px;
 
 a:visited {
@@ -50,6 +55,23 @@ a:visited {
 .quarto-title-block{
 
   border-left: solid 5px white;
+}
+
+
+.heading-party-blue h1,
+.heading-party-blue h2,
+.heading-party-blue h3 {
+  color: $technative-party-blue-color !important;
+}
+.heading-party-green h1,
+.heading-party-green h2,
+.heading-party-green h3 {
+  color: $technative-party-green-color !important;
+}
+.heading-party-red h1,
+.heading-party-red h2,
+.heading-party-red h3 {
+  color: $technative-party-red-color !important;
 }
 
 /*-- scss:rules --*/
