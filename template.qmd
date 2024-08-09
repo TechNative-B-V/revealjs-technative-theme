@@ -1,25 +1,25 @@
 ---
-title: "Equinet End 2 End monitoring"
+title: "MyClient E2E monitoring"
 subtitle: Securing the full stack with the power of the cloud!
 client:
-  name: Mustad BV
-  short_name: Mustad
-  contact_person: Masoud Banbersta
+  name: MyClient Inc
+  short_name: MyClient
+  contact_person: S. Urname
 format: technative-theme-revealjs
 incremental: false
 embed-resources: true
 date-format: "MMMM YYYY"
 ---
 
-# About this E2E Monitoring { data-background-color="#112f41" }
+# About this presentation { data-background-color="#112f41" }
 
-This proposal is made for improving the quality of the entire Equinet Application.
+This proposal is made for improving the quality of the entire Super Application.
 
 *from mobile device to database and everyting in between*
 
 ## Problem { data-background-color="#112f41" .center}
 
-- Equinet Application has many software and network components
+- Super Application has many software and network components
 - Ownership of components is divided among multiple parties.
 - Multiple Places where things can go wrong
 - Problems can be app-crashes, performance issues, data loss.
@@ -43,7 +43,7 @@ Our proposal can be roughly outlined with the following components:
 
 ![](img/elk5.png)
 
-## ELK for Equinet
+## ELK for Super
 
 ![](img/elk3.png)
 

@@ -1,6 +1,6 @@
 title: TechNative Revealjs Theme
 author: Pim Snel
-version: 1.0.0
+version: 1.0.1
 contributes:
   formats:
     revealjs:
