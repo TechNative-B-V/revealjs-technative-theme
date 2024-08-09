@@ -7,6 +7,7 @@ contributes:
       logo: TechNative_logo_white.svg
       footer: Copyright © 2024 [TechNative b.v.](https://technative.eu/)
       theme: [default, technative.scss]
+      css: [./technative-fonts.css]
       link-external-newwindow: true
       resources:
         - "*.woff2"
